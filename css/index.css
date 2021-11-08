@@ -22,7 +22,7 @@
     background-color: white;
     width: 100%;
     max-width: 375px;
-    box-shadow: hsl(225, 100%, 94%) 0px 1.5px 10px;
+    box-shadow: 3px 3px #272727;
     padding-bottom: 0.1rem;
     display: flex;
     flex-direction: column;
@@ -118,7 +118,6 @@ Margin-top:15px;
     font-weight: 700;
     cursor: pointer;
 Outline:none;
-Box-shadow:5px 5px 10px #222;
   }
 
   .center-button button:hover {
