@@ -118,6 +118,7 @@ Margin-top:15px;
     font-weight: 700;
     cursor: pointer;
 Outline:none;
+Box-shadow:3px 3px 8px hsl(245, 75%, 52%);
   }
 
   .center-button button:hover {
