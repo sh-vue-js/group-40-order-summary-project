@@ -16,13 +16,12 @@ body{
     border-radius: 20px;
     box-shadow: 4px 4px 8px #222;
 }
-.main-card{
+.card-container{
     margin-top: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-
 }
 .card > img {
     border-top-left-radius: 20px;
@@ -65,7 +64,7 @@ body{
     color: #3929E1;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left:20%;
+    margin-left:5%;
 }
 .center-button{
     display: flex;
