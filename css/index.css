@@ -98,7 +98,7 @@ body{
 
 .attribution { font-size: 15px; margin-top: 1rem;}
 .attribution a { color: hsl(228, 45%, 44%); }
-@media screen and (max-width:480px){
+@media only screen and (max-width: 375px) {
   body {
     box-sizing: border-box;
     background: url(../images/pattern-background-desktop.svg) no-repeat;
