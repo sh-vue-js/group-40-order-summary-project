@@ -1,121 +1,125 @@
-body {
-  box-sizing: border-box;
-  background: url(../images/pattern-background-desktop.svg) no-repeat;
-  font-family: "Red Hat Display";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  min-height: 100vh;
-  font-size: 16px;
-  margin: 20px;
-	padding: 0;
-}
+@media only screen and (max-width: 375px) {
+  body {
+    box-sizing: border-box;
+    background: url(../images/pattern-background-desktop.svg) no-repeat;
+    font-family: "Red Hat Display";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 16px;
+    margin: 20px;
+    padding: 0;
+  }
 
-.card-container {
-  color: hsl(224, 23%, 55%);
-  border-radius: 15px;
-  background-color: white;
-  width: 100%;
-  max-width: 375px;
-  box-shadow: hsl(225, 100%, 94%)   0px 1.5px 10px;
-  padding-bottom: 0.1rem;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-bottom: 20px;
-}
+  .card-container {
+    color: hsl(224, 23%, 55%);
+    border-radius: 15px;
+    background-color: white;
+    width: 100%;
+    max-width: 375px;
+    box-shadow: hsl(225, 100%, 94%) 0px 1.5px 10px;
+    padding-bottom: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-#card-img {
-  max-width: 100%;
-  border-radius: 15px 15px 0 0;
-  margin-bottom: 5px;
-}
+  #card-img {
+    max-width: 100%;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 5px;
+  }
 
-.card {
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  .card {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-.card-head-name {
-  color: hsl(223, 47%, 23%);
-  font-weight: 900;
-}
+  .card-head-name {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+  }
 
-.card-head-name, .music-plan-block b {
-  color: hsl(223, 47%, 23%);
-}
+  .card-head-name,
+  .music-plan-block b {
+    color: hsl(223, 47%, 23%);
+  }
 
-.card-container .card p {
-  margin: 15px 0 15px;
-  line-height: inherit;
-}
+  .card-container .card p {
+    margin: 15px 0 15px;
+    line-height: inherit;
+  }
 
-.card-container .card p, .price {
+  .card-container .card p,
+  .price {
     font-weight: 500;
-}
+  }
 
-.price {
-      margin: 5px 0 0 0;
-}
+  .price {
+    margin: 5px 0 0 0;
+  }
 
-.music-plan-flex {
-  width: 90%;
-  display: flex;
-  align-items: center;
-  padding: 12px;
-  border-radius: 10px;
-  background-color: hsl(225, 100%, 98%) ;
-  margin: 2px 0 20px;
-}
+  .music-plan-flex {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    margin: 2px 0 20px;
+  }
 
- .center-button {
-  width: 100%;
-}
+  .center-button {
+    width: 100%;
+  }
 
-#plan-icon {
-  margin-right: 0.8rem;
-}
+  #plan-icon {
+    margin-right: 0.8rem;
+  }
 
-.music-plan-block {
-  font-weight: 700;
-}
+  .music-plan-block {
+    font-weight: 700;
+  }
 
-.music-plan-flex a {
-  margin-left: auto;
-  color: hsl(245, 75%, 52%);
-  cursor: pointer;
-}
+  .music-plan-flex a {
+    margin-left: auto;
+    color: hsl(245, 75%, 52%);
+    cursor: pointer;
+  }
 
-.music-plan-flex a:hover{
-  color: hsl(224, 23%, 55%);
-}
+  .music-plan-flex a:hover {
+    color: hsl(224, 23%, 55%);
+  }
 
-.center-button button {
-  background-color: hsl(245, 75%, 52%);
-  border: none;
-  border-radius: 10px;
-  margin: 5px 0 25px 0;
-  padding: 12px;
-  width: 100%;
-  max-width: 320px;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: "Red Hat Display", sans-serif;
-  font-weight: 700;
-  cursor: pointer;
-}
+  .center-button button {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    margin: 5px 0 25px 0;
+    padding: 12px;
+    width: 100%;
+    max-width: 320px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+  }
 
-.center-button button:hover {
-  background-color: hsl(224, 23%, 55%);
-}
+  .center-button button:hover {
+    background-color: hsl(224, 23%, 55%);
+  }
 
-.button:hover{
-  color: hsl(223, 47%, 23%);
-  cursor: pointer;
+  .button:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+  }
 }
