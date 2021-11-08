@@ -1,4 +1,4 @@
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 575px) {
   body {
     box-sizing: border-box;
     background: url(../images/pattern-background-desktop.svg) no-repeat;
