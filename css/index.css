@@ -19,8 +19,8 @@ body{
     
     border-radius: none;
     background:unset;
-    width: 0;
-    max-width: 0;
+    width: 90%;
+    max-width: none;
     box-shadow: none;
     padding-bottom: 0.1rem;
     display: flex;
