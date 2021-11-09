@@ -16,6 +16,18 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center; 
+    
+    border-radius: none;
+    background:unset;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: none;
+    padding-bottom: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+Margin-top:15px
 }
 .card{
     width: 30%;
