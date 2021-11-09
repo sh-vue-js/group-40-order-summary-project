@@ -35,7 +35,7 @@ body{
 #card-img{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 90%;
+    width: 100%;
     height: 80%;
 }
 .card-head-name{
@@ -139,7 +139,7 @@ Margin-top:15px;
   }
 
   #card-img {
-    max-width: 100%;
+    width: 100%;
     border-radius: 15px 15px 0 0;
     margin-bottom: 5px;
   }
