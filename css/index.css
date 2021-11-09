@@ -20,7 +20,7 @@ body{
     border-radius: none;
     background:unset;
     width: 0;
-    max-width: 100%;
+    max-width: 0;
     box-shadow: none;
     padding-bottom: 0.1rem;
     display: flex;
