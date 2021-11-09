@@ -16,7 +16,13 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-
+}
+.card{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(226, 226, 226);
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px #222;
 }
 .card > img {
     border-top-left-radius: 20px;
@@ -141,6 +147,8 @@ Margin-top:15px;
   .card-head-name {
     color: hsl(223, 47%, 23%);
     font-weight: 900;
+Font-size:20px;
+Padding:0;
   }
 
   .card-head-name,
