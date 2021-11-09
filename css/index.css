@@ -144,9 +144,9 @@ Margin-top:15px;
     align-items: center;
 Width:100%;
 Height:100%;
-Background:unset;
-Box-shadow:0;
-Border-radius:0;
+Background:white;
+Box-shadow:none;
+Border-radius:none;
 
   }
 
