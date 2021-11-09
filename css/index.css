@@ -37,7 +37,8 @@ body{
     width: 100%;
     height: 100%;
     background-color: rgb(226, 226, 226);
-    border-radius: 20px;
+     border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     box-shadow: 4px 4px 8px #222;
 }
 #card-img{
