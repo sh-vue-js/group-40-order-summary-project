@@ -39,7 +39,7 @@ body{
     background-color: rgb(226, 226, 226);
      border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    box-shadow: 4px 4px 8px #222;
+    box-shadow: none;
 }
 #card-img{
     border-top-left-radius: 20px;
